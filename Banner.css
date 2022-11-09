@@ -19,8 +19,6 @@ body {
     width: 1349px;
     height: 225px;
     background-color: #f2f2f2;
-    background-image: url(./Asset\ 1.png);
-    background-repeat: no-repeat;
     background-position: center bottom;
     box-shadow: 10px 10px 20px 0 rgb(0, 0, 0, 0.1);
     cursor: pointer;
@@ -36,7 +34,7 @@ body {
     width: 1349px;
     height: 225px;
     text-align: center;
-    color: #f2f2f2;
+    color: #ffffff;
 }
 
 img {
@@ -65,13 +63,20 @@ img {
 .banner a {
     display: inline-block;
     padding: 10px 20px;
-    background: #ffa322;
     color: #3b3b3b;
     font-size: 1.2em;
     line-height: 1.2em;
     font-weight: 800;
     text-transform: uppercase;
     text-decoration: none;
+}
+
+button {
+    background: #ffa322;
+}
+
+button:hover {
+    background: #ffb64f;
 }
 
 .banner:hover {
