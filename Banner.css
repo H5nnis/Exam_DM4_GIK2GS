@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    width: 1349px;
+    height: 225px;
+    background-color: #f2f2f2;
+    background-image: url(./Asset\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    box-shadow: 10px 10px 20px 0 rgb(0, 0, 0, 0.1);
+    cursor: pointer;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+
+.banner-content {
+    position: relative;
+    top: 75%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    width: 1349px;
+    height: 225px;
+    text-align: center;
+    color: #f2f2f2;
+}
+
+img {
+    position: relative;
+    width: 300px;
+    height: 70px;
+}
+
+.banner p {
+    font-size: 1.7em;
+    line-height: 1.2em;
+    font-weight: lighter;
+    margin-bottom: 18px;
+    margin-top: 8px;
+    letter-spacing: 1px;
+}
+
+.banner h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    font-weight: lighter;
+    margin-bottom: 0px;
+    margin-top: -20px;
+}
+
+.banner a {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #ffa322;
+    color: #3b3b3b;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: 800;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.banner:hover {
+    box-shadow: 10px 10px 20px 0 rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
