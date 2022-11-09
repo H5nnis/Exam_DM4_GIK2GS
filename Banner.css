@@ -1,3 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url('./Amazon_Typefaces_Complete_Font_Set_Mar2020/');
+  }
+  
+  div {
+    font-family: myFirstFont;
+  }
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +21,7 @@ body {
     justify-content: center;
     align-items: center;
     background: rgb(255, 255, 255);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: myFirstFont;
 }
 
 .banner {
@@ -66,9 +75,10 @@ img {
     color: #3b3b3b;
     font-size: 1.2em;
     line-height: 1.2em;
-    font-weight: 800;
+    font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
+    font-family: myFirstFont;
 }
 
 button {
